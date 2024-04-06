@@ -200,7 +200,11 @@ button:focus {
 }
 
 .bg-gray {
-	background-color: #f8f8f9;
+	
+	background-image: url('../../image/image4.png'); /* Remplacez le fond coloré par une image */
+	background-size: cover; /* Assurez-vous que l'image couvre toute la zone */
+	background-position: center center; /* Centrez l'image dans le conteneur */
+	background-repeat: no-repeat; /* L'image ne doit pas se répéter */
 }
 
 .bg-gradient {
