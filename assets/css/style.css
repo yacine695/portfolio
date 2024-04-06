@@ -2206,3 +2206,37 @@ textarea:focus {
 .footer-copyright-text p {
 	color: #fff;
 }
+/* Ajout d'un effet de survol sur les éléments de la barre de navigation */
+.navbar-nav .nav-item .nav-link {
+  transition: color 0.3s, box-shadow 0.3s;
+}
+
+.navbar-nav .nav-item .nav-link:hover,
+.navbar-nav .nav-item .nav-link:focus {
+  color: #fff; /* Changer la couleur du texte lors du survol */
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2); /* Ajouter une ombre portée pour un effet de profondeur */
+  background-color: #3069b3; /* Changer la couleur d'arrière-plan lors du survol */
+  border-radius: 3px; /* Arrondir les coins */
+}
+
+/* Ajouter une animation de fond sur le bouton actif */
+.navbar-nav .nav-item .active {
+  background-image: linear-gradient(45deg, #3069b3, #a2b9ce);
+  color: #fff;
+  animation: GradientBackground 3s ease infinite;
+}
+
+@keyframes GradientBackground {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Styles spécifiques pour les boutons de navigation */
+.navbar-area .button {
+  transition: transform 0.3s; /* Ajouter une transition pour l'effet de survol */
+}
+
+.navbar-area .button:hover {
+  transform: translateY(-5px); /* Déplacer légèrement le bouton vers le haut pour un effet de survol */
+}
