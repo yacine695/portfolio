@@ -200,7 +200,7 @@ button:focus {
 }
 
 .bg-gray {
-	 background-image: url('../image/image4.png'); /* Chemin relatif à l'emplacement de votre fichier CSS */
+	 background-image: url('image/image4.png'); /* Chemin relatif à l'emplacement de votre fichier CSS */
     background-size: cover; /* Pour que l'image couvre tout l'espace disponible */
     background-position: center center; /* Pour centrer l'image */
     background-repeat: no-repeat; /* Pour ne pas répéter l'image */
