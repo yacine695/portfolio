@@ -200,7 +200,12 @@ button:focus {
 }
 
 .bg-gray {
-	background-color: #a4a4ad;
+	background-image: url('../../image/image4.png'); /* Remplacez le fond coloré par une image */
+	background-size: cover; /* Assurez-vous que l'image couvre toute la zone */
+	background-position: center center; /* Centrez l'image dans le conteneur */
+	background-repeat: no-repeat; /* L'image ne doit pas se répéter */
+}
+
 	
 }
 
