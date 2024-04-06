@@ -201,7 +201,8 @@ button:focus {
 
 .bg-gray {
 	
-
+background-color: #f8f8f9
+	}
 .bg-gradient {
 	background-color: transparent;
 	background-image: radial-gradient(at center center, #ffffff 0%, #6abff3 100%);;
