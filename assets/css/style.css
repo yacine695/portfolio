@@ -1058,7 +1058,7 @@ ul {
 	position: relative;
 	z-index: 1;
 	text-align: center;
-	background: url(../image2/image4.jpg);
+	background: url(/image2/image4.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
