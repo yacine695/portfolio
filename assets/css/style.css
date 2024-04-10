@@ -1058,7 +1058,7 @@ ul {
 	position: relative;
 	z-index: 1;
 	text-align: center;
-	background: url(/image2/image4.jpg);
+	background: url(../image2/image4.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -1857,7 +1857,7 @@ ul.list-style {
 	position: relative;
 	z-index: 1;
 	text-align: center;
-	background-image: url(../img/banner-bg.jpg);
+	background-image: url(../image2/image4.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
